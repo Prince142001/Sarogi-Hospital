@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/global.css">
+    <!-- Fontawesome Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Sarogi Hospital</title>
+</head>
+Patients should assess the likelihood of successful IVF based on their features in
+order to reduce psychological and
+other unfavourable consequences following IVF.
+<body>
+    <header class="header">
+        <div class="top-nav">
+            <div class="phone-call">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                    <path fill="#f7f7f7"
+                        d="m222.37 158.46l-47.11-21.11l-.13-.06a16 16 0 0 0-15.17 1.4a8.12 8.12 0 0 0-.75.56L134.87 160c-15.42-7.49-31.34-23.29-38.83-38.51l20.78-24.71c.2-.25.39-.5.57-.77a16 16 0 0 0 1.32-15.06v-.12L97.54 33.64a16 16 0 0 0-16.62-9.52A56.26 56.26 0 0 0 32 80c0 79.4 64.6 144 144 144a56.26 56.26 0 0 0 55.88-48.92a16 16 0 0 0-9.51-16.62ZM176 208A128.14 128.14 0 0 1 48 80a40.2 40.2 0 0 1 34.87-40a.61.61 0 0 0 0 .12l21 47l-20.67 24.74a6.13 6.13 0 0 0-.57.77a16 16 0 0 0-1 15.7c9.06 18.53 27.73 37.06 46.46 46.11a16 16 0 0 0 15.75-1.14a8.44 8.44 0 0 0 .74-.56L168.89 152l47 21.05h.11A40.21 40.21 0 0 1 176 208Z" />
+                </svg>
+                <span><a href="tel:9653673294">+91-9653673294</a></span>
+            </div>
+            <div class="mail">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
+                    <g fill="#f7f7f7">
+                        <path d="m224 56l-96 88l-96-88Z" opacity=".2" />
+                        <path
+                            d="M224 48H32a8 8 0 0 0-8 8v136a16 16 0 0 0 16 16h176a16 16 0 0 0 16-16V56a8 8 0 0 0-8-8Zm-96 85.15L52.57 64h150.86ZM98.71 128L40 181.81V74.19Zm11.84 10.85l12 11.05a8 8 0 0 0 10.82 0l12-11.05l58 53.15H52.57ZM157.29 128L216 74.18v107.64Z" />
+                    </g>
+                </svg>
+                <span><a href="mailto:prince.pv.14.2000@gmail.com?subject = Feedback&body = Message">
+                        prince.pv.14.2000@gmail.com
+                    </a>
+                </span>
+            </div>
+        </div>
+        <nav class="navbar-container">
+            <a href="/" class="home-link">
+                <img src="assets/logo.webp" alt="">
+                <!-- Company Logo -->
+            </a>
+            <button class="navbar-toggle" id="navbar-toggle" aria-controls="navbar-menu" aria-expanded="false">
+                <span class="sr-only">Menu</span>
+            </button>
+            <ul id="navbar-menu" class="navbar-menu" data-visible="false">
+                <li class="navbar-item"><a class="navbar-link" id="activeHomePage" href="index.html">Home</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#about-us">About Us</a></li>
+                <li class="navbar-item"><a href="index.html#services">Services</a></li>
+                <li class="navbar-item"><a href="index.html#testimonials">Testimonials</a></li>
+                <li class="navbar-item"><a class="navbar-link" href="index.html#contact-us">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="home-section">
+            <div class="swiper home-page-swiper">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-scrollbar"></div>
+                </div>
+            </div>
+            <div class="consultation-form-wrapper">
+                <div class="consultation-form">
+                    <h2>Book your Consultation</h2>
+                    <form action="#">
+                        <div class="input-field">
+                            <input type="text" required>
+                            <label>Enter your name</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="number" required>
+                            <label>Enter your phone number</label>
+                        </div>
+                        <div class="input-field">
+                            <input type="text" required>
+                            <label>Enter your email</label>
+                        </div>
+                        <button type="submit">submit</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="gallery-sec">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper main-slide-sec">
+                <div class="swiper-wrapper main-slidepage">
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div thumbsSlider="" class="swiper thumb-slides">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="https://swiperjs.com/demos/images/nature-10.jpg" />
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- ----------------------------------------- About Dr Section ----------------------------------------- -->
+        <section class="about-dr-sec" id="about-us">
+            <header>
+                <h2>Top-rated Fertility Specialist in Mumbai</h2>
+            </header>
+
+            <div class="article-sec">
+                <div class="col col-1">
+                    <figure>
+                        <img src="assets/dr-mohit.webp" alt="">
+                    </figure>
+                </div>
+                <div class="col col-2">
+                    <h2>Dr. Mohit Saraogi</h2>
+                    <h3>(M.D., D.N.B.F.C.P.S., D.G.O, M.N.A.MA.S., I.C.O.G.)</h3>
+                    <h3>Obstetrician, Gynecologist, Infertility Specialist</h3>
+                    <p>Dr. Mohit Saraogi who offers fertility solutions by giving you the best chance of realizing your
+                        dream of
+                        having a
+                        family. Dr. Mohit is an IVF specialist and he has provided excellent results over the years.</p>
+                    <p>A Gold medallist at DGO, FCPS, and ICOG exams, he has won 3 different gold medals at various
+                        competitive
+                        exams at a Pan
+                        India level. Dr. Mohit Sarogi is the brainchild of Iris IVF Centre, an alumnus of the
+                        prestigious
+                        KEM
+                        Hospital in Mumbai
+                        that has over the years helped countless couples attain their dreams of becoming parents.
+                        Renowned
+                        in
+                        the medical field
+                        across India for his expertise and experience in the specialty of fertility, which spans over 30
+                        years.
+                        Dr. Mohit
+                        Saraogi along with running his own centres plays an exemplary role in managing various centres
+                        across
+                        India. With a
+                        history of 15 national and international publications, his field of interest lies in Cases with
+                        recurrent implantation
+                        failure, Complex IVF cases.</p>
+                </div>
+            </div>
+        </section>
+        <section class="services-sec" id="services">
+            <header>
+                <h2>Services Offered by Saraogi Hospital</h2>
+            </header>
+
+            <div class="services-wrapper">
+                <ul></ul>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------- Numbers Data ----------------------------------------- -->
+        <section class="work-data-sec">
+            <header>
+                <h1>The numbers don't lie.</h1>
+            </header>
+            <div class="data-column">
+                <div class="data year-experience">
+                    <div class="num-data">
+                        <span id="year-experience">00</span><span>+</span>
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="data happy-customers">
+                    <div class="num-data">
+                        <span id="happy-customers">00</span><span>K</span>
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="data google-rating">
+                    <div class="num-data">
+                        <span id="google-rating">00</span><span>%</span>
+                    </div>
+                    <h3></h3>
+                </div>
+                <div class="data cities">
+                    <div class="num-data">
+                        <span id="cities">00</span><span></span>
+                    </div>
+                    <h3></h3>
+                </div>
+            </div>
+        </section>
+
+        <!-- ----------------------------------------- Testimonial Section ----------------------------------------- -->
+        <section class="testimonial-sec" id="testimonials">
+            <header>
+                <h2>Testimonials from our satisfied customers</h2>
+            </header>
+            <div class="testimonial-wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 24 24">
+                    <path fill="#428a87"
+                        d="M4.583 17.321C3.553 16.227 3 15 3 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Zm10 0C13.553 16.227 13 15 13 13.011c0-3.5 2.457-6.637 6.03-8.188l.893 1.378c-3.335 1.804-3.987 4.145-4.247 5.621c.537-.278 1.24-.375 1.929-.311c1.804.167 3.226 1.648 3.226 3.489a3.5 3.5 0 0 1-3.5 3.5a3.871 3.871 0 0 1-2.748-1.179Z" />
+                </svg>
+                <div class="swiper testimonial-swiper">
+                    <ul class="swiper-wrapper"></ul>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faqs-sec">
+            <header>
+                <h2>Frequently Asked Questions</h2>
+            </header>
+            <div class="faqs-wrapper">
+                <div class="col col-1">
+                    <figure>
+                        <img src="assets/expressive-bearded-man-orange-tshirt.jpg" alt="">
+                    </figure>
+                </div>
+                <div class="col col-2">
+                    <ul class="facs-accordion">
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-1">
+                            <label for="acc-tab-1">
+                                <span>Q:1. How much does IVF cost in Mumbai?</span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Contrary to common perception, In Vitro Fertilization (IVF) is solely for the wealthy
+                                    and famous. We want to point out
+                                    that IVF in Mumbai is relatively affordable, particularly at IRIS, Saraogi
+                                    Hospital’s IVF Center. The average IVF cost
+                                    in Mumbai is between Rs.1,50,000 to Rs.2,50,000, whereas at Saraogi Hospital
+                                    treatment starts at Rs.90,000 to
+                                    Rs.1,00,000.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-2">
+                            <label for="acc-tab-2">
+                                <span>Q:2. Are IVF babies normal?</span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Yes. In Vitro Fertilization (IVF) has resulted in the birth of millions of healthy
+                                    children. The technique poses no risk
+                                    to the child’s health in the short or long term. The main distinction between IVF
+                                    and non-IVF babies is the way they are
+                                    conceived.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-3">
+                            <label for="acc-tab-3">
+                                <span>Q:3. What are the factors that contribute to successful IVF at 43?</span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Patients should assess the likelihood of successful IVF based on their features in
+                                    order to reduce psychological and
+                                    other unfavourable consequences following IVF.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-4">
+                            <label for="acc-tab-4">
+                                <span>Q:4. For IVF, how many injections are required?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>A woman would usually give herself a shot once a day for 10 to 12 days. Those shots
+                                    are a hormonal stimulant that aids
+                                    in the production of mature eggs in her body.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-5">
+                            <label for="acc-tab-5">
+                                <span>Q:5. How long does it take for IVF to complete?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Ovarian stimulation, egg retrieval, sperm retrieval, fertilization, and embryo
+                                    transfer are all part of IVF. IVF cycles
+                                    can take anywhere from three to four weeks, and multiple cycles may be required.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-6">
+                            <label for="acc-tab-6">
+                                <span>Q:6. What should you look for in an IVF clinic?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>The next stage in a woman’s IVF journey is to visit an IVF clinic. It is crucial to
+                                    remember that even well-known IVF
+                                    clinics in India might suffer from high staff turnover and low quality. Hence,
+                                    conducting considerable research to
+                                    select the finest IVF clinics in India is necessary. As a result, the following
+                                    questions should be asked before
+                                    choosing an IVF clinic in India.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-7">
+                            <label for="acc-tab-7">
+                                <span>Q:7. What is the duration the doctors and technicians are working there?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Because frequent changes in doctors and employees can suggest bad management, this is
+                                    the most important question.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-7">
+                            <label for="acc-tab-7">
+                                <span>Q:8. Infertility treatments and techniques used?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Treatments for infertility and the technology that is used should be extensively
+                                    examined.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-7">
+                            <label for="acc-tab-7">
+                                <span>Q:9. Do they emphasize the patients' age?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>This is a good sign for the fertility clinic if this is the case.</p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-7">
+                            <label for="acc-tab-7">
+                                <span>Q:10. What are their policies and procedures?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Please inquire about the procedure, as well as egg fertilization and when it occurs.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="acc-tab"><input type="radio" name="acc-tab" id="acc-tab-7">
+                            <label for="acc-tab-7">
+                                <span>Q:11. How much does the IVF treatment cost in total?
+                                </span>
+                                <div class="acc-icon"><i class="fa fa-plus"></i></div>
+                            </label>
+                            <div class="acc-content">
+                                <p>Most couples do not make decisions only based on cost, but knowing the total cost
+                                    ahead of time might help avoid
+                                    misunderstandings later.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-us-sec" id="contact-us">
+            <div class="row-1">
+                <ul>
+                    <li>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <path fill="#f8f9fa"
+                                    d="M12 12q.825 0 1.413-.588T14 10q0-.825-.588-1.413T12 8q-.825 0-1.413.588T10 10q0 .825.588 1.413T12 12Zm0 10q-4.025-3.425-6.012-6.362T4 10.2q0-3.75 2.413-5.975T12 2q3.175 0 5.588 2.225T20 10.2q0 2.5-1.988 5.438T12 22Z" />
+                            </svg>
+                        </div>
+                        <p>
+                            <span>address:</span>
+                            <span>1st Floor Simplex Khushaangan, Vijaykarwadi, S.V.Road Mumbai Suburban Mumbai,
+                                Maharashtra
+                                400064</span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="#f8f9fa"
+                                    d="M19.95 21q-3.125 0-6.175-1.363t-5.55-3.862q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.338t.712-.062l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z" />
+                            </svg></div>
+                        <p>
+                            <span>phone:</span>
+                            <span><a href="tel:+9930666930">+91 9930666930</a>
+                                <a href="tel:+8108596729">+91 8108596729</a></span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icons">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                                <g fill="none">
+                                    <path
+                                        d="M24 0v24H0V0h24ZM12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035c-.01-.004-.019-.001-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427c-.002-.01-.009-.017-.017-.018Zm.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093c.012.004.023 0 .029-.008l.004-.014l-.034-.614c-.003-.012-.01-.02-.02-.022Zm-.715.002a.023.023 0 0 0-.027.006l-.006.014l-.034.614c0 .012.007.02.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01l-.184-.092Z" />
+                                    <path fill="#f8f9fa"
+                                        d="m21.433 4.861l-6 15.5a1 1 0 0 1-1.624.362l-3.382-3.235l-2.074 2.073a.5.5 0 0 1-.853-.354v-4.519L2.309 9.723a1 1 0 0 1 .442-1.691l17.5-4.5a1 1 0 0 1 1.181 1.329ZM19 6.001L8.032 13.152l1.735 1.66L19 6Z" />
+                                </g>
+                            </svg>
+                        </div>
+                        <p>
+                            <span>email:</span>
+                            <span><a href="mailto:mohitsaraogi85@gmail.com">mohitsaraogi85@gmail.com</a></span>
+                        </p>
+                    </li>
+                    <li>
+                        <div class="icons"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24">
+                                <path fill="#f8f9fa"
+                                    d="m11.8 20.025l.15-4.225l3.05-3h1.95v1.85l2.275.35q.275-.7.438-1.45t.162-1.55q0-2.225-1.112-4.063T15.8 5.05V8h-3v3h-2v3H8.775L6.8 11h-1v1l-1.775 1.975q.65 2.6 2.813 4.325t4.962 1.725Zm4-6.025h-3v-2h3v2Zm0-6h2.025l-1 3h-2.05L15.8 8Zm-4 14q-2.075 0-3.9-.788t-3.175-2.137q-1.35-1.35-2.137-3.175T1.8 12q0-2.075.788-3.9t2.137-3.175q1.35-1.35 3.175-2.137T11.8 2q2.075 0 3.9.788t3.175 2.137q1.35 1.35 2.138 3.175T21.8 12q0 2.075-.788 3.9t-2.137 3.175q-1.35 1.35-3.175 2.138T11.8 22Z" />
+                            </svg></div>
+                        <p>
+                            <span>website:</span>
+                            <span><a href="https://www.ivfinmumbai.com/" target="_blank">www.ivfinmumbai.com</a></span>
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="row-2">
+                <div class="col-1">
+                    <h2>Inquire now for Free Consultation, Check up & Free Sonography</h2>
+                    <form action="">
+                        <div class="input-field">
+                            <label for="name">full name</label>
+                            <input type="text" placeholder="Name">
+                        </div>
+                        <div class="input-field">
+                            <label for="phone-number">phone number</label>
+                            <input type="number" placeholder="Name">
+                        </div>
+                        <div class="input-field">
+                            <label for="email">email address</label>
+                            <input type="email" placeholder="Email">
+                        </div>
+                        <div class="input-field">
+                            <label for="message">message</label>
+                            <textarea name="w3review" rows="4" cols="30"></textarea>
+                        </div>
+
+                        <input type="submit" value="send message">
+                    </form>
+                </div>
+                <div class="col-2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60290.173207692635!2d72.846363!3d19.189269!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b701648ae499%3A0xdfe9ac66fc3a1318!2sSaraogi%20Hospital%20%26%20IRIS%20IVF%20Centre%20in%20Mumbai!5e0!3m2!1sen!2sin!4v1701938830621!5m2!1sen!2sin"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </section>
+
+
+        <div class="popup-contactus-form">
+            <div class="close-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24">
+                    <path fill="#ffffff"
+                        d="m12 13.4l-4.9 4.9q-.275.275-.7.275t-.7-.275q-.275-.275-.275-.7t.275-.7l4.9-4.9l-4.9-4.9q-.275-.275-.275-.7t.275-.7q.275-.275.7-.275t.7.275l4.9 4.9l4.9-4.9q.275-.275.7-.275t.7.275q.275.275.275.7t-.275.7L13.4 12l4.9 4.9q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275L12 13.4Z" />
+                </svg>
+            </div>
+            <h2>You are not bound to Register during Free Consultation</h2>
+            <form action="">
+                <div class="row-1">
+                    <div class="input-field">
+                        <label for="name">full name</label>
+                        <input type="text" placeholder="Name">
+                    </div>
+                    <div class="input-field">
+                        <label for="phone-number">phone number</label>
+                        <input type="number" placeholder="Name">
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="email">email address</label>
+                    <input type="email" placeholder="Email">
+                </div>
+                <div class="input-field">
+                    <label for="message">message</label>
+                    <textarea name="w3review" rows="4" cols="30"></textarea>
+                </div>
+
+                <input type="submit" value="send message">
+            </form>
+        </div>
+
+        <div class="enquire-now-btn"><button><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28"
+                    viewBox="0 0 32 32">
+                    <path fill="#428a87"
+                        d="M5 26a4 4 0 0 0 4 4h17a1 1 0 1 0 0-2H9a2 2 0 0 1-2-2h18.25A1.75 1.75 0 0 0 27 24.25V6a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v20Zm14.5-12a1.5 1.5 0 0 1 1.5 1.5v.5c0 1.971-1.86 4-5 4c-3.14 0-5-2.029-5-4v-.5a1.5 1.5 0 0 1 1.5-1.5h7ZM16 7.5a2.75 2.75 0 1 1 0 5.5a2.75 2.75 0 0 1 0-5.5Z" />
+                </svg><span>enquire now</span></button>
+        </div>
+
+        <ul class="fixed-left">
+            <li>
+                <a href="https://api.whatsapp.com/send/?phone=919930666930&text=Hi, Doctor i have query.">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24">
+                        <path fill="#428a87"
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967c-.273-.099-.471-.148-.67.15c-.197.297-.767.966-.94 1.164c-.173.199-.347.223-.644.075c-.297-.15-1.255-.463-2.39-1.475c-.883-.788-1.48-1.761-1.653-2.059c-.173-.297-.018-.458.13-.606c.134-.133.298-.347.446-.52c.149-.174.198-.298.298-.497c.099-.198.05-.371-.025-.52c-.075-.149-.669-1.612-.916-2.207c-.242-.579-.487-.5-.669-.51a12.8 12.8 0 0 0-.57-.01c-.198 0-.52.074-.792.372c-.272.297-1.04 1.016-1.04 2.479c0 1.462 1.065 2.875 1.213 3.074c.149.198 2.096 3.2 5.077 4.487c.709.306 1.262.489 1.694.625c.712.227 1.36.195 1.871.118c.571-.085 1.758-.719 2.006-1.413c.248-.694.248-1.289.173-1.413c-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214l-3.741.982l.998-3.648l-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884c2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z" />
+                    </svg><span>whatsapp</span></a>
+            </li>
+            <li class="open-popup-model"><a href="">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 24 24">
+                        <path fill="#428a87"
+                            d="M19.95 21q-3.125 0-6.175-1.362t-5.55-3.863q-2.5-2.5-3.862-5.55T3 4.05q0-.45.3-.75t.75-.3H8.1q.35 0 .625.238t.325.562l.65 3.5q.05.4-.025.675T9.4 8.45L6.975 10.9q.5.925 1.187 1.787t1.513 1.663q.775.775 1.625 1.438T13.1 17l2.35-2.35q.225-.225.588-.337t.712-.063l3.45.7q.35.1.575.363T21 15.9v4.05q0 .45-.3.75t-.75.3Z" />
+                    </svg>
+                    <span>call us</span>
+                </a></button>
+            </li>
+        </ul>
+
+        <button aria="Scroll To Top" class="scroll-to-top">
+            <svg id="progress-value" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 16 16">
+                <path fill="#fff"
+                    d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm4 9h8a.5.5 0 0 0 .374-.832l-4-4.5a.5.5 0 0 0-.748 0l-4 4.5A.5.5 0 0 0 4 11z" />
+            </svg>
+        </button>
+    </main>
+
+    <footer>
+        <div class="top-footer">
+            <div class="about-us">
+                <figure>
+                    <img src="assets/logo.webp" alt="">
+                </figure>
+                <p>Saraogi is one of the finest clinics for IVF in Mumbai. Here you will get best gynecological,
+                    endoscopic,
+                    obstetric and
+                    infertility treatments.The hospital has separate dedicated department for fertility segment named as
+                    IRIS IVF centre.</p>
+            </div>
+
+            <div class="quick-links">
+                <header>
+                    <h2>quick links</h2>
+                </header>
+                <ul>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#428a87" stroke-width="2"
+                                    d="M5 9h7V5.483a.2.2 0 0 1 .341-.142L19 12l-6.659 6.659a.2.2 0 0 1-.341-.142V15H5" />
+                            </svg>
+                            <span>home</span>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#428a87" stroke-width="2"
+                                    d="M5 9h7V5.483a.2.2 0 0 1 .341-.142L19 12l-6.659 6.659a.2.2 0 0 1-.341-.142V15H5" />
+                            </svg>
+                            <span>service</span>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#428a87" stroke-width="2"
+                                    d="M5 9h7V5.483a.2.2 0 0 1 .341-.142L19 12l-6.659 6.659a.2.2 0 0 1-.341-.142V15H5" />
+                            </svg>
+                            <span>about</span>
+                        </a></li>
+                    <li><a href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24">
+                                <path fill="none" stroke="#428a87" stroke-width="2"
+                                    d="M5 9h7V5.483a.2.2 0 0 1 .341-.142L19 12l-6.659 6.659a.2.2 0 0 1-.341-.142V15H5" />
+                            </svg>
+                            <span>privacy policy</span>
+                        </a></li>
+                </ul>
+            </div>
+
+            <div class="our-centers">
+                <header>
+                    <h2>our centers</h2>
+                </header>
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32">
+                            <path fill="#428a87"
+                                d="M16 4v2h6.586l-6.536 6.536a6.954 6.954 0 0 0-2.05 4.95V28h2V17.485a4.968 4.968 0 0 1 1.464-3.535L24 7.414V14h2V4ZM6 7.414L7.414 6L13 11.586L11.586 13z" />
+                        </svg>
+                        <p>Malad (West), Mumbai 400064</p>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32">
+                            <path fill="#428a87"
+                                d="M16 4v2h6.586l-6.536 6.536a6.954 6.954 0 0 0-2.05 4.95V28h2V17.485a4.968 4.968 0 0 1 1.464-3.535L24 7.414V14h2V4ZM6 7.414L7.414 6L13 11.586L11.586 13z" />
+                        </svg>
+                        <p>Andheri(West), Mumbai 400058</p>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32">
+                            <path fill="#428a87"
+                                d="M16 4v2h6.586l-6.536 6.536a6.954 6.954 0 0 0-2.05 4.95V28h2V17.485a4.968 4.968 0 0 1 1.464-3.535L24 7.414V14h2V4ZM6 7.414L7.414 6L13 11.586L11.586 13z" />
+                        </svg>
+                        <p>Ghatkopar(East), Mumbai 400077</p>
+                    </li>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 32 32">
+                            <path fill="#428a87"
+                                d="M16 4v2h6.586l-6.536 6.536a6.954 6.954 0 0 0-2.05 4.95V28h2V17.485a4.968 4.968 0 0 1 1.464-3.535L24 7.414V14h2V4ZM6 7.414L7.414 6L13 11.586L11.586 13z" />
+                        </svg>
+                        <p>Mulund(W), Mumbai 400080.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom-footer">
+            <div class="copyright-sec">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                    <path fill="#ffffff"
+                        d="M10.08 10.86c.05-.33.16-.62.3-.87s.34-.46.59-.62c.24-.15.54-.22.91-.23c.23.01.44.05.63.13c.2.09.38.21.52.36s.25.33.34.53s.13.42.14.64h1.79c-.02-.47-.11-.9-.28-1.29s-.4-.73-.7-1.01s-.66-.5-1.08-.66s-.88-.23-1.39-.23c-.65 0-1.22.11-1.7.34s-.88.53-1.2.92s-.56.84-.71 1.36S8 11.29 8 11.87v.27c0 .58.08 1.12.23 1.64s.39.97.71 1.35s.72.69 1.2.91c.48.22 1.05.34 1.7.34c.47 0 .91-.08 1.32-.23s.77-.36 1.08-.63s.56-.58.74-.94s.29-.74.3-1.15h-1.79c-.01.21-.06.4-.15.58s-.21.33-.36.46s-.32.23-.52.3c-.19.07-.39.09-.6.1c-.36-.01-.66-.08-.89-.23c-.25-.16-.45-.37-.59-.62s-.25-.55-.3-.88s-.08-.67-.08-1v-.27c0-.35.03-.68.08-1.01zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10s10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8s8 3.59 8 8s-3.59 8-8 8z" />
+                </svg>
+                <p>2021, Saraogi Hospital & Iris IVF Center. All Rights Reserved.</p>
+            </div>
+            <ul class="social-media-sec">
+                <li>
+                    <a href=""><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                            <circle cx="4.983" cy="5.009" r="2.188" fill="#ffffff" />
+                            <path
+                                d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118c1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783c-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"
+                                fill="#ffffff" />
+                        </svg></a>
+                </li>
+                <li><a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24">
+                            <path fill="#ffffff"
+                                d="M18.205 2.25h3.308l-7.227 8.26l8.502 11.24H16.13l-5.214-6.817L4.95 21.75H1.64l7.73-8.835L1.215 2.25H8.04l4.713 6.231l5.45-6.231Zm-1.161 17.52h1.833L7.045 4.126H5.078L17.044 19.77Z" />
+                        </svg>
+                    </a></li>
+                <li><a href="">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 24 24">
+                            <path fill="#ffffff"
+                                d="M14 13.5h2.5l1-4H14v-2c0-1.03 0-2 2-2h1.5V2.14c-.326-.043-1.557-.14-2.857-.14C11.928 2 10 3.657 10 6.7v2.8H7v4h3V22h4v-8.5Z" />
+                        </svg>
+                    </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/dynamic-data.js"></script>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js"></script>
+    <script>
+        // --------------------------------About Dr Section--------------------------------
+        let aboutDrSec = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".about-dr-sec",
+                start: "top center",
+                end: "bottom bottom",
+                // markers: true,
+                scrub: true
+            }
+        })
+        aboutDrSec.to(".about-dr-sec header h2", { opacity: 1, y: "0", duration: 0.25 });
+        aboutDrSec.to(".about-dr-sec .col-1 figure", { opacity: 1, x: 0, duration: 0.25 });
+        aboutDrSec.to(".about-dr-sec .col-2", { opacity: 1, x: 0, duration: 0.25 });
+
+        // -------------------------------- Service Section --------------------------------
+        let servicesTl = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".services-sec",
+                start: "top center",
+                end: "bottom bottom",
+                scrub: true
+            }
+        })
+        servicesTl.to(".services-sec header h2", { opacity: 1, y: "0", duration: 0.25 });
+        servicesTl.to(".services-wrapper ul li", { y: 0, opacity: 1, scale: 1, duration: 1, stagger: { each: 1500 } })
+
+        // --------------------------------About Dr Section--------------------------------
+        let numberData = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".work-data-sec",
+                start: "top center",
+                end: "bottom bottom",
+                // markers: true,
+                scrub: true
+            }
+        })
+        numberData.to(".work-data-sec header h1", { opacity: 1, y: "0", duration: 0.25 });
+        numberData.to(".work-data-sec .data-column .data", { y: 0, opacity: 1, scale: 1, duration: 1, stagger: { each: 2000 } })
+
+        // -------------------------------- Testimonial Section--------------------------------
+        let testimonialSec = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".testimonial-sec",
+                start: "top center",
+                end: "bottom bottom",
+                // markers: true,
+                scrub: true
+            }
+        })
+        testimonialSec.to(".testimonial-sec header h2", { opacity: 1, y: "0", duration: 0.25 });
+        testimonialSec.to(".testimonial-sec .testimonial-wrapper", { opacity: 1, x: 0, duration: 0.25 });
+
+        // --------------------------------About Dr Section--------------------------------
+        let faqsSec = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".faqs-sec",
+                start: "top center",
+                end: "bottom bottom",
+                // markers: true,
+                scrub: true
+            }
+        })
+        faqsSec.to(".faqs-sec header h2", { opacity: 1, y: "0", duration: 0.25 });
+        faqsSec.to(".faqs-sec .col-1 figure", { opacity: 1, x: 0, duration: 0.25 });
+        faqsSec.to(".faqs-sec .col-2", { opacity: 1, x: 0, duration: 0.25 });
+
+        // -------------------------------- Contact Us --------------------------------
+        let contactUsSec = gsap.timeline({
+            scrollTrigger: {
+                trigger: ".contact-us-sec .row-1",
+                start: "top center",
+                end: "bottom bottom",
+                // markers: true,
+                scrub: true
+            }
+        })
+        contactUsSec.to(".row-1 ul li", {
+            y: 0,
+            opacity: 1,
+            scale: 1,
+            duration: 1,
+            stagger: {
+                each: 1500
+
+            }
+        });
+        contactUsSec.to(".contact-us-sec .row-2 .col-1", { opacity: 1, x: 0, duration: 0.25 });
+        contactUsSec.to(".contact-us-sec .row-2 .col-2", { opacity: 1, x: 0, duration: 0.25 });
+    </script>
+
+</body>
+
+</html>

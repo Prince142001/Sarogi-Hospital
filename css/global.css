@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;500;600;700;800&display=swap");
+
+:root {
+  /* --primary-color: #0f172a; */
+  --primary-color: #428a87;
+  --secondary-color: #f2295b;
+  /* --tertiary-color: #74c0fc; */
+  --white-color: #ffffff;
+  --shadow-color: #878b95;
+  --section-margin-tb: 5rem;
+  --section-padding-tb: 3.5rem;
+  --section-padding-lr: 10%;
+  --border-radius: 10px;
+  /* --primary: #0f172a; */
+  /* --bg-color: #f0f0f6; */
+  --bg-color: #f0f1f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.2s linear;
+  text-decoration: none;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+::-webkit-scrollbar {
+  width: 0.3rem;
+  margin: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 0.4rem;
+  margin: 2rem;
+}
+
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--primary-color);
+  box-shadow: inset 0 0 0px 1px var(--bg-color);
+  cursor: grabbing;
+  transition: 0.2s linear;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+html {
+  /* font-size: 62.5%; */
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+  background-color: var(--bg-color);
+}
+
+ul li {
+  list-style: none;
+}
+
+section{
+  overflow: hidden;
+}
+
+section header {
+  position: relative;
+  z-index: 10;
+}
+
+section header h2 {
+  position: relative;
+  font-size: 1.8rem;
+  font-weight: 600;
+  /* background-color: var(--white-color); */
+  padding: 0 1rem;
+  margin: auto;
+  width: fit-content;
+  /* z-index: 10; */
+  text-align: center;
+}
+
+section header h2::before,
+section header h2::after {
+  content: "";
+  position: absolute;
+  width: 20%;
+  height: 3px;
+  top: 50%;
+  background-color: var(--primary-color);
+}
+
+section header h2::before {
+  left: -18%;
+}
+
+section header h2::after {
+  right: -18%;
+}
+
+/* section header::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 3px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: var(--primary-color);
+  z-index: 0;
+} */
+
+/* section header h2 {
+  font-size: 1.3rem;
+  font-weight: 600;
+} */
+
+#scrollbar {
+  width: 100%;
+  height: 100vh;
+  overflow: auto;
+}
